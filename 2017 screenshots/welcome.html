@@ -1,0 +1,252 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"    
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="robots" content="none">
+<title>Welcome to Quintiles Connect :: Quintiles</title>
+
+<script src="/dana-na/css/ds.js"></script>
+<script>
+        WriteCSS();
+</script>
+
+<script>
+<!--
+if (window.top != self) {
+	top.location = location;
+}
+if(window.name == "newpincancel" || window.name == "nexttokencancel") {
+   window.close();
+}
+//--></script>
+<script src="/dana-na/auth/lastauthserverused.js"></script>
+<script>
+function deletepreauth() {
+    document.cookie = "DSPREAUTH="+ escape("")+ ";path=/dana-na/;expires=12-Nov-1996";
+}
+</script>
+
+<script>
+
+function getInternetExplorerVersion()
+// Returns the version of Internet Explorer or a -1
+// (indicating the use of another browser).
+{
+  var rv = -1; // Return value assumes failure.
+  if (navigator.appName == 'Microsoft Internet Explorer')
+  {
+    var ua = navigator.userAgent;
+    var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+    if (re.exec(ua) != null)
+      rv = parseFloat( RegExp.$1 );
+  }
+  return rv;
+}
+</script>
+
+	<link rel="stylesheet" media="all" href="/dana-na/auth/url_11/elements/base.css" />
+	<link rel="stylesheet" media="all" href="/dana-na/auth/url_11/elements/nav.css" />
+	<link rel="stylesheet" media="all" href="/dana-na/auth/url_11/elements/en/nav.css" />
+	<link rel="stylesheet" media="all" href="/dana-na/auth/url_11/elements/newlogin.css" />
+	<link rel="stylesheet" media="all" href="/dana-na/auth/url_11/elements/button.css" />
+
+<script type="text/javascript">
+if (getInternetExplorerVersion()==6)
+  {
+document.write('<link rel="stylesheet" type="text/css" href="/dana-na/auth/url_11/elements/css/ie6.css" media="screen" />');
+  }
+</script>
+
+<script type="text/javascript">
+if (getInternetExplorerVersion()==7)
+  {
+document.write('<link rel="stylesheet" type="text/css" href="/dana-na/auth/url_11/elements/css/ie7.css" media="screen" />');
+  }
+</script>
+
+<script src="/dana-na/auth/url_11/elements/js/jquery.js" type="text/javascript"></script>
+<script src="/dana-na/auth/url_11/elements/js/jquery.pop.js" type="text/javascript"></script>
+<script src="/dana-na/auth/url_11/elements/js/pages/base.js" type="text/javascript"></script>
+
+
+</head>
+
+
+
+
+
+<body onload="FinishLoad(1)">
+<form name="frmLogin" action="login.cgi" method="POST" autocomplete="off" onsubmit="return Login(1)">
+        <input type="hidden" name="tz_offset">
+  <div class="container twocol">
+    <div class="header">
+      <a class="logo" href="http://www.quintiles.com"><h2>Quintiles</h2></a>
+    </div>
+
+	
+	<div class="clearfix">
+	  &nbsp;
+	</div>
+    
+	<div class="faux_topcap">
+     
+    </div>
+	
+	<div class="main">
+	  <div class="left_col">
+	    <ul>
+		  <li>
+		    <em>Connected To:</em>
+		  </li>
+		  <li>
+			<em><font color="#D31145">Americas Data Center</font></em>
+			<br><br><br>
+		  </li>
+		</ul>
+		<ul>
+          <li>
+		    <em>Other Choices:</em>
+		  </li>
+          <li>
+            <a href="https://connect-edc.quintiles.com/">European Data Center</a>
+          </li>
+		<li>
+            <a href="https://connect-sng.quintiles.com/">Singapore</a>
+          </li>
+		  <li>
+            <a href="https://connect-jdc.quintiles.com/">Japan Data Center</a>
+          </li>
+		</ul>
+	  </div>
+	  <div class="right_col">
+	    <div class="content_rightcol">
+		  &nbsp;
+	    </div>
+		
+	    <div class="content_main">
+		  <p><font color="red">Sorry, your session on this machine expired. To re-login, please enter your user information, otherwise for increased security please close your browser.</font></p>
+		  
+
+		  
+          <div class="pinsafe_login">
+			
+			
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr>
+			<td>
+			
+			
+			<table width="394" height="300" border="0" style="border: 3px solid #cccccc;margin-top:10px;">
+              <tr>
+			    <td>
+                  <div class="qtl_TitleBar"><span class="qtl_Title">Login to <img align="absmiddle" style="position:relative;top:-2px;" src="/dana-na/auth/url_11/elements/img/webapps_logo.jpg" /></span></div>
+                </td>
+			  </tr>
+              <tr>
+			    <td>
+
+			      <table width="394" border="0" class="qtl_LoginBox" cellpadding="0" cellspacing="4">
+			      <tr>
+			        <td><span class="qtl_Label">Username</span></td><td><span class="qtl_Label">Password</span></td><td></td>
+			      </tr>
+			      <tr height="20">
+				    <td>
+		 			      <input class="qtl_FormInputBox" style="font-size: 20px;width:150px;" type="text" title="Enter user name" name="username" size="30" maxlength="127" />
+				    </td>
+				    <td>
+		 			      <input class="qtl_FormInputBox" style="font-size: 20px;width:150px;" type="password" title="Enter password" name="password" size="30" maxlength="127" />
+				    </td>
+				    <td>
+                      <script src="/dana-na/auth/url_11/pinsafe.js" type="text/javascript"></script>
+				    </td>
+			      </tr>
+			      <tr>
+			        <td colspan="2">
+				      <div class="qtl_SecureImage"><img width="303" height="81" id="imgTuring" name="imgTuring" style="visibility:hidden"></div>
+				    </td>
+				    <td></td>
+			      </tr>
+			      <tr>
+			        <td colspan="3"><span id="lblPasscode" class="qtl_Label2_disable" style="position:relative;top:-7px;">Passcode</span></td>
+			      </tr>
+			      <tr>
+			        <td>
+				  
+					      <input id="iptPassCode" class="qtl_FormInputBoxDisable" style="font-size: 20px;position: relative;top: -13px;width:150px;" type="password" title="Enter passcode" name="password#2" size="30" maxlength="32" disabled="true">
+				    </td>
+				    <td>
+				        <input id="butLogin" style="height:27px;overflow:visible;width:5em;position:relative;top:-13px;" type="submit" value="Login" name="btnSubmit" disabled="true" />
+				    </td>
+				    <td>&nbsp;</td>
+			      </tr>
+			  
+			  
+			        <input type="hidden" name="realm" value="NonQIC-Menu">		
+
+			      </table>
+			
+			    </td>
+			  </tr>
+			</table>
+			
+			</td>
+			<td valign="top">
+              
+			  <div class="qtl_Divider">&nbsp;</div>
+			</td>
+			<td>
+			  
+			    <table width="180" height="430" border="0" class="qtl_HelpFrame" cellpadding="2" cellspacing="0">
+				  <tr height="25"><td class="qtl_HelpHeader">Quick Help</td></tr>
+				  <tr height="405">
+				    <td height="100%" valign="top" class="qtl_HelpBody">
+				      <span class="qtl_helptext">
+				        Enter username (Q-ID) and password, then click "Submit".</p>
+				        Use your assigned PIN for your Passcode per Quintiles Global IT instructions, then click "Login".
+					<br/><br/>
+					  Self-help options for your Q-ID password. 
+			                  <a href="https://myqidpassword.quintiles.com/">Manage My Password</a> 
+				      </span>
+					</td>
+				  </tr>
+				</table>
+			</td>
+			</tr>
+			</table>
+
+		  </div>
+
+
+	    </div>
+		
+	  </div>
+	</div>
+	
+	<div class="faux_bottomcap">
+	  
+	</div>
+	
+	<div class="footer">
+	  <span class="copyright">
+	    Copyright &copy; 2016 QuintilesIMS.  All rights reserved.
+      </span>
+	  <ul>
+        <li class="first_li"><a href="http://www.quintiles.com/privacy/">Privacy</a></li>
+        <li><a href="http://www.quintiles.com/terms-of-service/">Terms of Service</a></li>
+        <li><a href="http://www.quintiles.com/contact-us/">Contact Us</a></li>
+      </ul>
+      <div class="clearfix">
+	    &nbsp;
+	  </div>
+    </div>
+	
+  </div>
+  </form>
+ </body>
+</html>
+

@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Central Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Elizabeth Coffey:MAILTO:lcoffey@encorehealthresources.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Susan Kile
+ y:MAILTO:skiley@encorehealthresources.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Bill Burge
+ :MAILTO:bburge@encorehealthresources.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Randy Thom
+ as:MAILTO:rthomas@encorehealthresources.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=External_S
+ usan Kiley:MAILTO:srk2@att.net
+ATTACH:CID:42109C06D53CBF42A8AD583BA81B85F4@namprd05.prod.outlook.com
+DESCRIPTION;LANGUAGE=en-US:Hello:  I am setting up a recurring monthly Ment
+ is Quality Call for the second Monday of the month at 11am CT.  Thanks.\n\
+ n\nRegards\,\n\nLiz\n________________________________________\nLiz Coffey\
+ , PMP │ Director\, Consulting Services\nEncore\, A Quintiles Company\nlc
+ offey@encorehealthresources.com<mailto:lcoffey@encorehealthresources.com>\
+ nwww.EncoreHealthResources.com<http://www.encorehealthresources.com/>\n850
+ -288-1209\n\n\n\n\nTo join meeting\, click on the “Join WebEx meeting”
+  link\; select your audio connection option once in WebEx. To join WebEx m
+ eetings from your mobile device\, install the Cisco WebEx Meetings App for
+  iOS or Android.\n\n\n\nRemember: Toll Free is always the most expensive w
+ ay to join\, and should only be used when other options are not available.
+ \n\n\n\nJoin WebEx meeting<https://quintilesconferencing.webex.com/quintil
+ esconferencing/j.php?MTID=m3b60175f0cb744a563f3ddb2c558d211>\nMeeting numb
+ er: 707 416 436\n\n\nJoin by phone\n+1-844-872-5344 US TollFree High Cost\
+ n+1-919-379-5519 US Preferred\nAccess code: 707 416 436\nGlobal call-in nu
+ mbers<https://quintilesconferencing.webex.com/quintilesconferencing/global
+ callin.php?serviceType=MC&ED=525097502&tollFree=1>  |  Toll-free calling r
+ estrictions<https://www.webex.com/pdf/tollfree_restrictions.pdf>\n\n\n\n**
+ ******************** IMPORTANT--PLEASE READ ************************ This 
+ electronic message\, including its attachments\, is CONFIDENTIAL and may c
+ ontain PROPRIETARY or LEGALLY PRIVILEGED or PROTECTED information and is i
+ ntended for the authorized recipient of the sender. If you are not the int
+ ended recipient\, you are hereby notified that any use\, disclosure\, copy
+ ing\, or distribution of this message or any of the information included i
+ n it is unauthorized and strictly prohibited. If you have received this me
+ ssage in error\, please immediately notify the sender by reply e-mail and 
+ permanently delete this message and its attachments\, along with any copie
+ s thereof\, from all locations received (e.g.\, computer\, mobile device\,
+  etc.). Thank you. *******************************************************
+ ***************\n
+RRULE:FREQ=MONTHLY;UNTIL=20181231T170000Z;INTERVAL=1;BYDAY=2MO
+UID:040000008200E00074C5B7101A82E0080000000000A138B7EA9BD201000000000000000
+ 01000000077EC9848DBBAEB4FA41456F459B8B5E7
+SUMMARY;LANGUAGE=en-US:Mentis Quality Call
+DTSTART;TZID=Central Standard Time:20170410T110000
+DTEND;TZID=Central Standard Time:20170410T113000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20170313T162640Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:WebEx Conf Number 919-379-5519  access code 7074164
+ 36
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-976406559
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
